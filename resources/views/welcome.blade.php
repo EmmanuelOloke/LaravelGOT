@@ -26,7 +26,7 @@
                                 </div>
 
                                 @if(Auth::guest())
-                                    <a href="/login" class="btn btn-info">You need to login to see the list 😜😜 >></a>
+                                    <a href="{{ url('/login') }}" class="btn btn-info">You need to login to see the list 😜😜 >></a>
                                 @endif
                             </div>
                         </div>
