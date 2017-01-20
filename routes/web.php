@@ -17,6 +17,10 @@ Route::get('/logout', function () {
     return redirect('/');
 });
 
+Route::get('/contact', 'HomeController@contact');
+
+Route::get('/about', 'PagesController@about');
+
 Route::get('/', 'ListController@show');
 
 Auth::routes();
