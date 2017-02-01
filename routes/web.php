@@ -20,6 +20,8 @@ Route::get('/logout', function () {
 Route::get('/contact', 'HomeController@contact');
 
 Route::get('/about', 'PagesController@about');
+Route::get('/services', 'PagesController@services');
+Route::get('/slider', 'PagesController@slider');
 
 Route::get('/', 'ListController@show');
 
