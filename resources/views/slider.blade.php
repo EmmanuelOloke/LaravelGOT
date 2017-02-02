@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container" style="margin-top: 20px; color: salmon;">
+<div class="container">
 
 <div id="mycarousel" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
@@ -46,7 +46,7 @@
 		</div>
 
 		<div class="item">
-			<img src="{{asset('assets/img/shiffi4.jpg')}}.jpg" data-color="tomato" alt="Fifth Image">
+			<img src="{{asset('assets/img/shiffi4.jpg')}}" data-color="tomato" alt="Fifth Image">
 			<div class="carousel-caption">
 				<h3>Fifth Image</h3>
 			</div>

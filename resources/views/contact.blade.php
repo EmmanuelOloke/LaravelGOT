@@ -30,7 +30,7 @@
 					</div>
 
 					<div class="panel-body">
-						<h3>First paragraph</h3>
+						<h3 style="color: white;">First paragraph</h3>
 						<button class="btn btn-default">First</button>
 					</div>
 				</div>
@@ -43,7 +43,7 @@
 					</div>
 
 					<div class="panel-body">
-						<h3>Second paragraph</h3>
+						<h3 style="color: white;">Second paragraph</h3>
 						<button class="btn btn-default">Second</button>
 					</div>
 				</div>
@@ -56,7 +56,7 @@
 					</div>
 
 					<div class="panel-body">
-						<h3>Third paragraph</h3>
+						<h3 style="color: white;">Third paragraph</h3>
 						<button class="btn btn-default">Third</button>
 					</div>
 				</div>
