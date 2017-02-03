@@ -108,7 +108,7 @@
     @yield('footer')
 
     <!-- Scripts -->
-    <script src="/got/public/js/app.js"></script>
-    <script src="/got/public/js/slider.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
