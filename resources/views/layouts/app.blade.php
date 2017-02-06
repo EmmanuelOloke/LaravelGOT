@@ -84,8 +84,8 @@
 
         @yield('content')
     </div>
-
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" style="margin-bottom: 0px;">
+<footer class="footer">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="{{ url('/') }}">Laravel</a>
@@ -105,6 +105,7 @@
         </ul>
       </div>
     </nav>
+</footer>
     @yield('footer')
 
     <!-- Scripts -->

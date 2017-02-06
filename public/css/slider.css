@@ -11,3 +11,11 @@ h3 {
 	background-position: center;
 	background-repeat: no-repeat; 
 }
+
+@media (max-width: 767px){
+
+	.block{
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+}
