@@ -82,33 +82,35 @@
                 </div>
             </div>
         </nav>
-
+    
+        <div class="body">
         @yield('content')
-    </div>
-<footer class="footer">
-    <nav class="navbar navbar-inverse navbar-fixed-bottom"">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="{{ url('/') }}">
-            <img class="navbar-brand" src="{{asset('assets/img/shiffilogotr.png')}}" style="height: 60px; width: 140px; margin-top: -5px;">
-          </a>
+
         </div>
-        
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ url('/') }}">Home</a></li>
-          <li><a href="{{ url('/about') }}">About</a></li>
-          <li><a href="{{ url('/contact') }}">Contact</a></li>
-          <li><a href="{{ url('/services') }}">Services</a></li>
-          <li><a href="{{ url('/slider') }}">Slider</a></li>
-            @if (Auth::guest())
-                <a href="{{ url('/login') }}"><button class="btn btn-default btn-sm navbar-btn"> Login</button></a>
-            @else
-                <a href="{{ url('/logout') }}"><button class="btn btn-default btn-sm navbar-btn"> Logout</button></a>
-            @endif
-        </ul>
-      </div>
-    </nav>
-</footer>
+        <div class="footer">
+            <nav class="navbar navbar-inverse footer">
+              <div class="container">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="{{ url('/') }}">Laravel</a>
+                </div>
+                
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="{{ url('/') }}">Home</a></li>
+                  <li><a href="{{ url('/about') }}">About</a></li>
+                  <li><a href="{{ url('/contact') }}">Contact</a></li>
+                  <li><a href="{{ url('/services') }}">Services</a></li>
+                  <li><a href="{{ url('/slider') }}">Slider</a></li>
+                    @if (Auth::guest())
+                        <a href="{{ url('/login') }}"><button class="btn btn-default btn-sm navbar-btn"> Login</button></a>
+                    @else
+                        <a href="{{ url('/logout') }}"><button class="btn btn-default btn-sm navbar-btn"> Logout</button></a>
+                    @endif
+                </ul>
+              </div>
+            </nav>
+        </div>
+    </div>
+
     @yield('footer')
 
     <!-- Scripts -->

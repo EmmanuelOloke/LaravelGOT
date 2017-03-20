@@ -21,11 +21,12 @@ h3{
  	padding-bottom: 150px;
  }
 
- .footer{
+ #app {
+ 	min-height: 100%;
  	position: relative;
- 	width: 100px;
- 	margin-top: -150px;
- 	height: 150px;
  	clear: both;
- 	padding-top: 20px;
+ }
+
+ .footer .navbar {
+ 	margin-bottom: 0;
  }
