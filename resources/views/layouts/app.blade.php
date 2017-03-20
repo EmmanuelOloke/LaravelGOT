@@ -23,7 +23,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px;">
+        <nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0px;">
             <div class="container">
                 <div class="navbar-header">
 
@@ -36,8 +36,9 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a href="{{ url('/') }}">
+                        <!-- {{ config('app.name', 'Laravel') }} -->
+                        <img class="navbar-brand" src="{{asset('assets/img/shiffilogotr.png')}}" style="width: 140px; height: 60px; margin-top: -5px;">
                     </a>
                 </div>
 
@@ -85,10 +86,12 @@
         @yield('content')
     </div>
 <footer class="footer">
-    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom"">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="{{ url('/') }}">Laravel</a>
+          <a href="{{ url('/') }}">
+            <img class="navbar-brand" src="{{asset('assets/img/shiffilogotr.png')}}" style="height: 60px; width: 140px; margin-top: -5px;">
+          </a>
         </div>
         
         <ul class="nav navbar-nav navbar-right">

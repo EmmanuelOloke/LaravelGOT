@@ -6,7 +6,7 @@
 
 
 h3{
-	
+
 }
  html, body{
  	height: 100%;
@@ -23,6 +23,7 @@ h3{
 
  .footer{
  	position: relative;
+ 	width: 100px;
  	margin-top: -150px;
  	height: 150px;
  	clear: both;

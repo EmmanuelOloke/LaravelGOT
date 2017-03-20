@@ -7,11 +7,12 @@
 	<div id="mycarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#mycarousel" data-slide-to="0" class=""></li>
+			<li data-target="#mycarousel" data-slide-to="0"></li>
 			<li data-target="#mycarousel" data-slide-to="1"></li>
 			<li data-target="#mycarousel" data-slide-to="2"></li>
 			<li data-target="#mycarousel" data-slide-to="3"></li>
 			<li data-target="#mycarousel" data-slide-to="4"></li>
+			<li data-target="#mycarousel" data-slide-to="5"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
